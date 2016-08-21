@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Bloc Jams Angular</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="/styles/album.css">
     <link rel="stylesheet" href="/styles/collection.css">
     <link rel="stylesheet" href="/styles/landing.css">
@@ -13,6 +15,7 @@
 </head>
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="/scripts/app.js"></script>
 </body>
   <nav class="navbar"> <!-- navigation bar -->
@@ -23,4 +26,7 @@
       <a href="collection.html" class="navbar-link">collection</a>
     </div>
   </nav>
+
+  <ui-view></ui-view>
+
 </html>
